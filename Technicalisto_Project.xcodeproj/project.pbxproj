@@ -27,7 +27,7 @@
 		10C288F926CEEC9F000724E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10C288FC26CEEC9F000724E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10C288FE26CEEC9F000724E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10C2890426CEECAB000724E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Technicalisto_Project/README.md; sourceTree = "<group>"; };
+		10C2890426CEECAB000724E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		10DA93C9287F037A00DEB4C8 /* ClassTech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTech.swift; sourceTree = "<group>"; };
 		10DA93CB287F038900DEB4C8 /* ExtensionTech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTech.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
