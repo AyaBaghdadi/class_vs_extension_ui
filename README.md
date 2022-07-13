@@ -1,7 +1,7 @@
 
 # Technicalisto
 
-## Different between Class & Extension in IOS UI in Coding
+## IOS Swift : Different between Class & Extension in IOS UI in Coding
 
 Note : 
        for easy understand firstly read this file ** once ** 
