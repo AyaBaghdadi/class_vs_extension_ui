@@ -5,8 +5,9 @@
 
 Note : 
        for easy understand firstly read this file ** once ** 
-       & follow steps in new project from this [ReadMe]() file or from this [Video]()
+       & follow steps in new project from this [ReadMe](https://github.com/AyaBaghdadi/class_vs_extension_ui) file or from this [Video]()
        
+![screen](img.png)
 
 Class
 
@@ -29,8 +30,6 @@ self.setTitle("test text of button", for: .normal)
         
 }
 }
-
-
 ```
 
 Extension
@@ -63,7 +62,6 @@ print("Button pushed from Extention")
 }
     
 }
-
 ```
 
 Extension can make in Class
@@ -82,7 +80,6 @@ self.setTitle("test text of button", for: .normal)
                 
 }
 }
-
 ```
 
 Extension can write more than one of the same type
@@ -91,13 +88,12 @@ Extension can write more than one of the same type
 
 extension ClassTech  {
     
-    func Test(){
+    func TestDublicate(){
         
         print("Another Dublicate")
         
     }
 }
-
 ```
 
 ### Thanks
