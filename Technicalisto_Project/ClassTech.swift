@@ -2,12 +2,13 @@
 //  ClassTech.swift
 //  Technicalisto_Project
 //
+///_____________________________________________________________________________________
 
 import UIKit
 
 class ClassTech: UIButton {
     
-    func ClassCreateDesign(){
+    func ClassCreateDesign() {
         
         self.backgroundColor = UIColor.black
         

@@ -1,14 +1,14 @@
 //
-//  ExtensionTech.swift
+//  ClassTech.swift
 //  Technicalisto_Project
 //
 ///_____________________________________________________________________________________
 
 import UIKit
 
-extension UIButton  {
-
-    func ExtensionCreateDesign() {
+extension ClassTech {
+    
+    func ExtensionFromClassCreateDesign() {
         
         self.backgroundColor = UIColor.black
         
@@ -16,18 +16,7 @@ extension UIButton  {
         
         self.setTitle("test text of button", for: .normal)
         
-        self.addTarget(self, action: #selector(buttonAction(sender:)), for: .touchUpInside)
-
-    }
-    
-    /// This method in extension UIButton
-    @objc func buttonAction(sender: UIButton) {
-        
-        print("Button pushed from Extention")
+//        self.addTarget(self, action: #selector(buttonAction(sender:)), for: .touchUpInside)
         
     }
-    
 }
-
-
-

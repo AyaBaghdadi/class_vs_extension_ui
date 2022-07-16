@@ -17,6 +17,8 @@
 		10DA93CA287F037A00DEB4C8 /* ClassTech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA93C9287F037A00DEB4C8 /* ClassTech.swift */; };
 		10DA93CC287F038900DEB4C8 /* ExtensionTech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA93CB287F038900DEB4C8 /* ExtensionTech.swift */; };
 		10DA93CE287F175200DEB4C8 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 10DA93CD287F175200DEB4C8 /* img.png */; };
+		10DA93D0287F21CC00DEB4C8 /* ExtensionFromClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA93CF287F21CC00DEB4C8 /* ExtensionFromClass.swift */; };
+		10DA93D2287F21F500DEB4C8 /* ExtensionDublicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA93D1287F21F500DEB4C8 /* ExtensionDublicate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		10DA93C9287F037A00DEB4C8 /* ClassTech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTech.swift; sourceTree = "<group>"; };
 		10DA93CB287F038900DEB4C8 /* ExtensionTech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTech.swift; sourceTree = "<group>"; };
 		10DA93CD287F175200DEB4C8 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		10DA93CF287F21CC00DEB4C8 /* ExtensionFromClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFromClass.swift; sourceTree = "<group>"; };
+		10DA93D1287F21F500DEB4C8 /* ExtensionDublicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDublicate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				105EA15126EB84F500638DE4 /* ViewController.swift */,
 				10DA93C9287F037A00DEB4C8 /* ClassTech.swift */,
 				10DA93CB287F038900DEB4C8 /* ExtensionTech.swift */,
+				10DA93CF287F21CC00DEB4C8 /* ExtensionFromClass.swift */,
+				10DA93D1287F21F500DEB4C8 /* ExtensionDublicate.swift */,
 				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
 				10C288F226CEEC9E000724E6 /* SceneDelegate.swift */,
 				10C288F626CEEC9E000724E6 /* Main.storyboard */,
@@ -151,11 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DA93D0287F21CC00DEB4C8 /* ExtensionFromClass.swift in Sources */,
 				10DA93CA287F037A00DEB4C8 /* ClassTech.swift in Sources */,
 				10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */,
 				105EA15226EB84F500638DE4 /* ViewController.swift in Sources */,
 				10DA93CC287F038900DEB4C8 /* ExtensionTech.swift in Sources */,
 				10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */,
+				10DA93D2287F21F500DEB4C8 /* ExtensionDublicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

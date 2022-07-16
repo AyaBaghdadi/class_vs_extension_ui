@@ -20,7 +20,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xq0-wO-98c">
                                 <rect key="frame" x="30" y="393" width="354" height="120"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Euk-qp-nV0">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Euk-qp-nV0" customClass="ClassTech" customModule="Technicalisto_Project" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="354" height="50"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <constraints>
@@ -62,6 +62,10 @@
                             <constraint firstItem="xq0-wO-98c" firstAttribute="leading" secondItem="4Et-xJ-NnI" secondAttribute="leading" constant="30" id="wAn-QP-4bw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Btn1" destination="Euk-qp-nV0" id="DeN-md-HDc"/>
+                        <outlet property="Btn2" destination="iWr-Dc-Fvj" id="3PC-Kq-QPU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jB8-dy-KRO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
